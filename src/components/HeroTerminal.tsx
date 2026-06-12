@@ -548,6 +548,20 @@ export function HeroTerminal({ onExitTriggered }: HeroTerminalProps) {
 
       <div className="container mx-auto px-4 relative z-10 w-full">
         <div className="max-w-4xl mx-auto">
+          <div className="mb-8 rounded-lg overflow-hidden border border-green-500/30 shadow-[0_0_30px_rgba(0,255,65,0.15)]">
+            <div className="flex items-center gap-2 px-4 py-2 bg-black/80 border-b border-green-500/20">
+              <div className="w-3 h-3 bg-destructive rounded-full"></div>
+              <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+              <div className="w-3 h-3 bg-primary rounded-full"></div>
+              <span className="ml-4 text-xs text-green-400/70 font-mono">celestial-client://preview.exe</span>
+            </div>
+            <img
+              src="https://cdn.poehali.dev/projects/a7e95e36-5107-4742-a4ec-355dee66661e/files/c5142b35-afb9-4261-a317-210166972803.jpg"
+              alt="Celestial Client Preview"
+              className="w-full object-cover max-h-72"
+            />
+          </div>
+
           <div className="bg-card border border-border rounded-lg shadow-2xl mb-8 flex flex-col">
             <div className="flex items-center gap-2 px-4 py-2 border-b border-border bg-muted/20 flex-shrink-0">
               <div className="w-3 h-3 bg-destructive rounded-full"></div>
