@@ -21,7 +21,7 @@ export default function HomePage() {
 
   return (
     <main className="relative">
-      <CodeRain />
+      {/* <CodeRain /> */}
 
       <div className="relative z-10">
         <TerminalHeader isVisible={showHeaderFooter} />

@@ -44,40 +44,38 @@
   }
 
   .dark {
-    /* Тёмная тема - киберпанк эстетика с зелёным матричным стилем */
-    --background: 0 0% 4%;
-    --foreground: 120 100% 50%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
 
-    --card: 0 0% 7%;
-    --card-foreground: 120 100% 50%;
-    --popover: 0 0% 4%;
-    --popover-foreground: 120 100% 50%;
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
 
-    /* Киберпанк зелёные цвета сохраняются */
     --primary: 160 84% 39%;
     --primary-foreground: 0 0% 100%;
     --secondary: 158 64% 52%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 53%;
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 40%;
     --accent: 158 64% 52%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 7%;
+    --border: 0 0% 85%;
+    --input: 0 0% 98%;
     --ring: 160 84% 39%;
 
-    --sidebar-background: 0 0% 4%;
-    --sidebar-foreground: 120 100% 50%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 10%;
     --sidebar-primary: 160 84% 39%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 158 64% 52%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 0 0% 20%;
+    --sidebar-border: 0 0% 85%;
     --sidebar-ring: 160 84% 39%;
   }
 }
